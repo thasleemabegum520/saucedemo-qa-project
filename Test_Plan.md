@@ -42,5 +42,23 @@ Test data used has been included in each test case separately.
 | Test Case ID    | TC_003                                                                                                                                     |
 | Test Case Title | Verify Add to cart functionality.                                        
 | Test Data       | Username:"standard_user" <br> Password: "secret_sauce"<br/>                                                                               |            
-| Steps to follow | 1. Open Google Chrome.<br> 2. Go to http://saucedemo.com .<br>3.Enter username and Password.<br>4.Click Login.<br>5. Observe error message. 
-| Expected Result | The page should be redirected to the inventory page of user.                                                                               
+| Steps to follow | 1. Open Google Chrome.<br> 2. Go to http://saucedemo.com .<br>3.Enter username and Password.<br>4.Click Login.<br>5.Among products, click any 2 product add to cart.<br>6. Go to cart and verify products. 
+| Expected Result | The cart should have those two clicked products.
+Status |passed|
+
+| Subject         | Description                                                                                                                                 |
+|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| Test Case ID    | TC_004                                                                                                                                      |
+| Test Case Title | Verify filter functionality in inventory page.                                                                                              
+| Test Data       | Username:"standard_user" <br> Password: "secret_sauce"<br/>                                                                                 |            
+| Steps to follow | 1. Open Google Chrome.<br> 2. Go to http://saucedemo.com .<br>3.Enter username and Password.<br>4.Click Login.<br>5. click on filter option and click 4 options one by one.<br>6.check product list order on every option.  
+| Expected Result | The order of products should change appropriate to the option.
+Status| Passed|
+
+| Subject         | Description                                                                                                                               |
+|-----------------|-------------------------------------------------------------------------------------------------------------------------------------------|
+| Test Case ID    | TC_005                                                                                                                                    |
+| Test Case Title | Verify checkout functionality.                                        
+| Test Data       | Username:"standard_user" <br> Password: "secret_sauce"<br/>                                                                               |            
+| Steps to follow | 1. Open Google Chrome.<br> 2. Go to http://saucedemo.com .<br>3.Enter username and Password.<br>4.Click Login.<br>5. add any two items to the cart.<br>6. go to cart and click on checkout.<br> 7. Fill the form with valid first name, last name and pincode.<br>8. click on continue.<br>9. Check final details and click on finish. 
+| Expected Result |Order dispatched message should be displayed.                                                                              
