@@ -18,15 +18,15 @@ The scope of this project includes Login page, inventory page, browse products, 
 ## Test Data:
 Test data used has been included in each test case separately.
 ## Test Cases
-| Subject         | Description                                                                                                                                         |
-|-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| Test Case ID    | TC_001                                                                                                                                              |
-| Test Case Title | Verify Login functionality with valid username with leading and trailing spaces and valid password.                                                 |
-| Test Data       | Username:" standard_user " <br> Password: "secret_sauce"<br/>                                                                                       | 
-| Steps to follow | 1. Open Google Chrome.<br> 2. Go to https://www.saucedemo.com/ .<br>3. Enter username and Password.<br>4. Click Login.<br>5. Observe error message. |
-| Expected Result | User should login sucessfully.                                                                                                                      |
-|Actual Result| Error message "Epic sadface: Username and password do not match any user in this service" is displayed.                                             |
-|Status| Failed                                                                                                                                              |
+| Subject         | Description                                                                                                                                     |
+|-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| Test Case ID    | TC_001                                                                                                                                          |
+| Test Case Title | Verify Login functionality with valid username with leading and trailing spaces and valid password.                                             |
+| Test Data       | Username:" standard_user " <br> Password: "secret_sauce"<br/>                                                                                   | 
+| Steps to follow | 1. Open Google Chrome.<br> 2. Go to https://www.saucedemo.com/ .<br>3. Enter username and Password.<br>4. Click Login. |
+| Expected Result | User should login sucessfully.                                                                                                                  |
+|Actual Result| Error message "Epic sadface: Username and password do not match any user in this service" is displayed.                                         |
+|Status| Failed                                                                                                                                          |
 
 
 | Subject         | Description                                                                                                                                         |
