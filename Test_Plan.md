@@ -73,7 +73,7 @@ Test data used has been included in each test case separately.
 | Status          | Passed                                                                                                                                                                                                                                                                                                                                     |
 
 
-## Risk Assesment
+## Risk Assessment
 | Functionality | Risk Level | Test Scenario                                                                                    |
 |---------------|------------|--------------------------------------------------------------------------------------------------|
 | Login         | High       | User cannot login with valid credentials                                                         |
