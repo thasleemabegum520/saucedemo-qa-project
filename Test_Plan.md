@@ -5,7 +5,7 @@ To test saucedemo.com website in all aspects like, functional,UI , Input validat
 The scope of this project includes Login page, inventory page, browse products, cart, checkout.
 ## Types of Testing
 * Functional
-* UI
+* UI/UX
 * Negative testing
 * Edge cases
 * Cross-browser consideration

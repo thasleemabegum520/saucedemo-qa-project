@@ -28,18 +28,18 @@
 | Evidence Screenshot | ![Overlap_bug.png](Screenshots/Overlap_bug.png)                                                                                                         |
 
 
-| Subject            | Description                                                                                                                                                               |
-|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Bug ID             | BUG-003                                                                                                                                                                   |
-| Bug Summary        | Verify Sorting option in the inventory page.                                                                                                                              |
-| Test Data          | Username:"standard_user" <br> Password: "secret_sauce"<br/>                                                                                                               | 
+| Subject            | Description                                                                                                                                                            |
+|--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Bug ID             | BUG-003                                                                                                                                                                |
+| Bug Summary        | Sorting dropdown arrow not working.                                                                                                                                    |
+| Test Data          | Username:"standard_user" <br> Password: "secret_sauce"<br/>                                                                                                            | 
 | Steps to Reproduce | 1. Open Google Chrome.<br> 2. Go to https://www.saucedemo.com/.<br>3. Enter username and Password.<br>4. Click Login.<br>5. Click on the dropdown arrow on inventory page. |
-| Expected Result    | Sorting options should be displayed on dropdown.                                                                                                                          |
-| Actual Result      | Nothing happens when clicking dropdown arrow. Though filter icon, and Name(A to Z) sort field is working properly.                                                        |
-|Category|UI/UX Bug|
-| Severity           | Low                                                                                                                                                                       |
-| Priority           | Low                                                                                                                                                                       |
-| Evidence Video     | [View Evidence](Screenshots/Sorting_Arrow.mp4)                                                                                                                            |
+| Expected Result    | Sorting options should be displayed.                                                                                                                           |
+| Actual Result      | Nothing happens when clicking dropdown arrow. Though filter icon, and Name(A to Z) sort field is working properly.                                                     |
+|Category| UI/UX Bug                                                                                                                                                              |
+| Severity           | Low                                                                                                                                                                    |
+| Priority           | Low                                                                                                                                                                    |
+| Evidence Video     | [View Evidence](Screenshots/Sorting_Arrow.mp4)                                                                                                                         |
 
 
 | Subject            | Description                                                                                                                                                             |
