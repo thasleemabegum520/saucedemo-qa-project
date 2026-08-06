@@ -18,15 +18,15 @@ The scope of this project includes Login page, inventory page, browse products, 
 ## Test Data:
 Test data used has been included in each test case separately.
 ## Test Cases
-| Subject         | Description                                                                                                            |
-|-----------------|------------------------------------------------------------------------------------------------------------------------|
-| Test Case ID    | TC_001                                                                                                                 |
-| Test Case Title | Verify Login functionality with valid username with leading and trailing spaces and valid password.                    |
-| Test Data       | Username:" standard_user " <br> Password: "secret_sauce"<br/>                                                          | 
-| Steps to follow | 1. Open Google Chrome.<br> 2. Go to https://www.saucedemo.com/ .<br>3. Enter username and Password.<br>4. Click Login. |
-| Expected Result | User should login successfully.                                                                                        |
-|Actual Result| Error message "Epic sadface: Username and password do not match any user in this service" is displayed.                |
-|Status| Failed                                                                                                                 |
+| Subject         | Description                                                                                                                                                          |
+|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Test Case ID    | TC_001                                                                                                                                                               |
+| Test Case Title | Verify the images in the inventory are appropriate with their titles.                                                                                                |
+| Test Data       | Username:"problem_user" <br> Password: "secret_sauce"<br/>                                                                                                           | 
+| Steps to follow | 1. Open Google Chrome.<br> 2. Go to https://www.saucedemo.com/ .<br>3. Enter username and Password.<br>4. Click Login.<br/>5. Observe the products and their images. |
+| Expected Result | The products title and their image should be appropriate.                                                                                                            |
+|Actual Result| The images and their titles are not appropriate. instead all products have same image.                                                                               |
+|Status| Failed                                                                                                                                                               |
 
 
 | Subject         | Description                                                                                                                                         |
@@ -37,7 +37,8 @@ Test data used has been included in each test case separately.
 | Steps to follow | 1. Open Google Chrome.<br> 2. Go to https://www.saucedemo.com/ .<br>3. Enter username and Password.<br>4. Click Login.<br>5. Observe error message. |
 | Expected Result | Appropriate error message for a locked out user should be displayed.                                                                                |
 |Actual Result|Appropriate error message "Epic sadface: Sorry, this user has been locked out." has displayed.|
-|Status| Passed                                                                                                                                              |
+|Status| Passed         |
+
 
 
 | Subject         | Description                                                                                                                                                                                                                |
